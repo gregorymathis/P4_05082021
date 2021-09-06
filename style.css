@@ -322,6 +322,10 @@ a:hover {
     z-index: 1;
 }
 
+.navbar-nav>li>a:focus{
+    color: red;
+}
+
 .nav > li {
     float: left;
     margin-top: 4px;
