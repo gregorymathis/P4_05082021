@@ -7,6 +7,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* ajout de css */ 
+
+.avis{
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757;
+    font-weight: bold;
+}
+.avis-auteur{
+    font-size: 1em;
+}
+
+/* fin ajout de css */
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -826,7 +840,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
