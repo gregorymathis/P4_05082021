@@ -18,6 +18,11 @@ body {
 .avis-auteur{
     font-size: 1em;
 }
+.titre-secondaire{
+    color: #575757;
+    text-align: center;
+    margin: auto;
+}
 
 /* fin ajout de css */
 
@@ -669,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -710,7 +715,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -793,17 +798,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .ltc-white {
