@@ -836,11 +836,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/compress/la-chouette-agence-banniere-compressed.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/compress/image-de-presentation-compressed.jpg");
 }
 
 @media (max-width: 1024px) {
