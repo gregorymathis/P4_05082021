@@ -23,6 +23,12 @@ body {
     text-align: center;
     margin: auto;
 }
+.icon-md:before{
+    color: #000000;
+}
+.col-sm-12{
+    color: #ffffff;
+}
 
 /* fin ajout de css */
 
@@ -746,7 +752,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C;
 }
 
 h4 {
@@ -759,7 +765,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .portfolio-thumb {
@@ -799,7 +805,6 @@ h4 {
 
 .tc-white {
     color: #ffffff;
-    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
