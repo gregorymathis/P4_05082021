@@ -29,6 +29,9 @@ body {
 .col-sm-12{
     color: #ffffff;
 }
+label{
+    font-size: 1.8rem;
+}
 
 /* fin ajout de css */
 
@@ -116,7 +119,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/compress/texture-paper-compress.png");
     background-size: 280px 280px;
 }
 
@@ -685,7 +688,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 4rem;
 }
 
 .hero-bloc-text-sub {
@@ -748,7 +751,8 @@ h3 {
 }
 
 h1 {
-    color:  #e9cd51;
+    color: #f3976c
+    ;
 }
 
 h4 {
@@ -778,7 +782,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(121 108 72 / 70%);
+    background-color: rgb(33 29 20 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -796,15 +800,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:  #e9cd51;
+    background-color:  #F3976C;
 }
 
 .tc-white {
-    color: #e9cd51;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
-    background:  #e9cd51;
+    background:  #F3976C;
     color: #000000;
 }
 
@@ -822,7 +826,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color:  #e9cd51 ;
+    color:  #F3976C ;
 }
 
 .ltc-atomic-tangerine:hover {
