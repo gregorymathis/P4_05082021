@@ -10,13 +10,12 @@ body {
 /* ajout de css */ 
 
 .avis{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-style: italic;
     color: #575757;
-    font-weight: bold;
 }
 .avis-auteur{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .titre-secondaire{
     color: #575757;
@@ -310,7 +309,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .navbar {
@@ -355,7 +355,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -676,7 +676,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 500;
     color: #575757;
 }
 
@@ -703,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .tight-width-whitespace {
@@ -721,7 +721,6 @@ p {
     color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -731,12 +730,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.5rem;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 ;
@@ -749,7 +748,7 @@ h3 {
 }
 
 h1 {
-    color: #F3976C;
+    color:  #e9cd51;
 }
 
 h4 {
@@ -779,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(121 108 72 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -797,15 +796,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:  #e9cd51;
 }
 
 .tc-white {
-    color: #ffffff;
+    color: #e9cd51;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:  #e9cd51;
     color: #000000;
 }
 
@@ -823,7 +822,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C ;
+    color:  #e9cd51 ;
 }
 
 .ltc-atomic-tangerine:hover {
