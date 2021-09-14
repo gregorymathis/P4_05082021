@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://https://gregorymathis.github.io/P4_05082021/monsitemap.xml

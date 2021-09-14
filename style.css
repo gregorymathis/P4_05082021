@@ -7,41 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* ajout de css */ 
-
-.avis{
-    font-size: 1.5em;
-    font-style: italic;
-    color: #575757;
-}
-.avis-auteur{
-    font-size: 1.2em;
-}
-.titre-secondaire{
-    color: #575757;
-    text-align: center;
-    margin: auto;
-}
-.icon-md:before{
-    color: #000000;
-    font-size: 3rem;
-}
-.col-sm-12{
-    color: #ffffff;
-}
-label{
-    font-size: 1.8rem;
-}
-.tc-contrast{
-    color: #ffffff;
-}
-
-/* fin ajout de css */
-
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none ;
+    outline: none!important;
 }
 
 a:hover {
@@ -97,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto ;
-    -moz-background-size: auto ;
-    -o-background-size: auto ;
-    background-size: auto ;
+    -webkit-background-size: auto!important;
+    -moz-background-size: auto!important;
+    -o-background-size: auto!important;
+    background-size: auto!important;
 }
 
 .bg-repeat {
@@ -122,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/compress/texture-paper-compress.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -315,8 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 32px;
 }
 
 .navbar {
@@ -354,14 +322,10 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-nav>li>a:focus{
-    color: red;
-}
-
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 2rem;
+    font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -379,7 +343,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent ;
+    background: transparent!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -440,7 +404,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none ;
+    background: none!important;
     display: block;
     padding: 14px 15px;
 }
@@ -467,7 +431,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0 ;
+    margin: 6px -5px 0 0!important;
     float: right;
 }
 
@@ -497,7 +461,7 @@ nav .caret {
 }
 
 button {
-    outline: none ;
+    outline: none!important;
 }
 
 .btn-rd {
@@ -511,8 +475,12 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
+.icon-md {
+    font-size: 30px!important;
+}
+
 .icon-lg {
-    font-size: 60px ;
+    font-size: 60px!important;
 }
 
 .sm-shadow {
@@ -682,8 +650,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 500;
-    color: #575757;
+    font-weight: 400;
+    color: #575757!important;
 }
 
 .container {
@@ -691,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 4rem;
+    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
@@ -709,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -724,9 +692,10 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #000000;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -736,15 +705,15 @@ p {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 ;
+    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -754,12 +723,11 @@ h3 {
 }
 
 h1 {
-    color: #f3976c
-    ;
+    color: #333333!important;
 }
 
 h4 {
-    color: #333333 ;
+    color: #333333!important;
 }
 
 .icons {
@@ -768,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #000000;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -785,13 +753,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(33 29 20 / 70%);
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline ;
+    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -803,42 +771,42 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:  #F3976C;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background:  #F3976C;
-    color: #000000;
+    background: #F3976C;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 ;
-    color: #000000;
+    background: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
-    color: #FFFFFF ;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc ;
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
-    color:  #F3976C ;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 ;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577 ;
-    border-color: #364577 ;
+    color: #364577!important;
+    border-color: #364577!important;
 }
 
 .bg-dots-bg {
@@ -850,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/compress/la-chouette-agence-banniere-compressed.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/compress/image-de-presentation-compressed.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -934,8 +902,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px ;
-        padding-right: 10px ;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -943,7 +911,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none ;
+        float: none!important;
     }
     .navbar.row {
         margin-left: 0;
@@ -968,7 +936,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px ;
+        margin: 5px 0 0 10px!important;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
